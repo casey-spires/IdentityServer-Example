@@ -1,0 +1,12 @@
+﻿@model IdentityModel.Client.TokenResponse
+@{
+    ViewData["Title"] = "RequestToken";
+}
+
+<h2>RequestToken</h2>
+<h3>Access Token: </h3>
+@Model.AccessToken
+<h3>Refresh Token</h3>
+@Model.RefreshToken
+<h3>Expires In:</h3>
+@Model.ExpiresIn
